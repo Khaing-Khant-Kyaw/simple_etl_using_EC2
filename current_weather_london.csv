@@ -1,0 +1,2 @@
+City,Description,Temperature(F),Feels Like(F),Minimum Temperature(F),Maximum Temperature(F),Pressure,Humidity,Wind Speed,Time of record,Sunrise (Local Time),Sunset (Local Time)
+London,light rain,49.280000000000044,45.03200000000002,47.912000000000056,51.00800000000001,1005,90,4.63,2025-12-21 17:03:56,2025-12-21 08:03:53,2025-12-21 15:53:19
