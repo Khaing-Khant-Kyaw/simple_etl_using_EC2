@@ -36,6 +36,9 @@ The script is designed to run on an **AWS EC2 (Ubuntu)** instance and demonstrat
 ---
 
 ## Project Structure
+## Project Structure
+
+```text
 simple_etl_using_EC2/
 ├── .gitignore
 ├── README.md
