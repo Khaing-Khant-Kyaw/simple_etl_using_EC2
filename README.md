@@ -36,4 +36,10 @@ The script is designed to run on an **AWS EC2 (Ubuntu)** instance and demonstrat
 ---
 
 ## Project Structure
+simple_etl_using_EC2/
+├── .gitignore
+├── README.md
+├── credential.txt
+├── main.py
+└── requirements.txt
 
