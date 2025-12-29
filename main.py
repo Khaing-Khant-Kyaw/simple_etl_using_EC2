@@ -3,7 +3,7 @@ from datetime import datetime
 import pandas as pandas
 import requests
 
-city_name = 'London'
+city_name = 'Berlin'
 base_url =  'https://api.openweathermap.org/data/2.5/weather?q='
 
 with open('credential.txt','r') as f:
