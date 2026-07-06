@@ -2,12 +2,14 @@ import json
 from datetime import datetime
 import pandas as pandas
 import requests
+import os 
 
 city_name = 'Berlin'
 base_url =  'https://api.openweathermap.org/data/2.5/weather?q='
 
-with open('credential.txt','r') as f:
-    api_key = f.read()
+api_key = os.environ.get('OPENWEATHER_API_KEY')
+if not api_key:
+    raise ValueError("Missing OPENWEATHER_API_KEY environment variable")
 
 full_url = base_url+ city_name+ '&appid='+api_key
 
