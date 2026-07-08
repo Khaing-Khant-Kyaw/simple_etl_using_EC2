@@ -1,0 +1,7 @@
+.env
+venv/
+env/
+*.csv
+__pycache__/
+*.pyc
+credential.txt
