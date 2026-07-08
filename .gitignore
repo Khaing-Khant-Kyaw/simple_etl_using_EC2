@@ -1,7 +1,7 @@
-.vscode/
-.vscode-server/
-.ssh/
-__pycache__/
-*.pyc
 .env
 venv/
+env/
+*.csv
+__pycache__/
+*.pyc
+credential.txt
